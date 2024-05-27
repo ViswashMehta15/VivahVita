@@ -19,6 +19,28 @@
     margin-bottom: 10px;
   }
   
+
+  /* Media query for tablets and larger devices */
+@media (min-width: 768px) {
+  .homepage-button {
+    width: 75%;
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+
+/* Media query for desktops and larger devices */
+@media (min-width: 1024px) {
+  .homepage-button {
+    width: 50%;
+    font-size: 20px;
+    padding: 14px;
+  }
+}
+
+
+
+
   .homepage-buttons {
     display: flex;
     flex-direction: column;
@@ -31,7 +53,7 @@
     background: #007bff;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 50px;
     font-size: 16px;
     cursor: pointer;
   }

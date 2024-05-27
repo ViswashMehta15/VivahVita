@@ -13,5 +13,5 @@ html, body, #root {
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #f0f0f0; /* Optional: to make sure the background color is visible */
+  /* background-color: #f0f0f0; */
 }
